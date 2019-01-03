@@ -1,0 +1,36 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.dev.msvc"
+    },
+    "jhipsterVersion": "5.7.2",
+    "applicationType": "microservice",
+    "baseName": "microservices",
+    "packageName": "com.dev.msvc",
+    "packageFolder": "com/dev/msvc",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NGRmMmRkNzFlNTlkNGJkYmQ2MGJjOGI2MjMzMGMzNWM2MWIzMTJhMDRiYTNiZDA2ODE0Mjk0YTMxMTI5NGU1YzNjNWNkZjI0YTlkODE5YjFhYWZiZDY2MzMwYTJkOWE0NzkyMGY1ZDM3MzdmZmNhMGY5MmU4YmU3N2RkNTY2ZDk=",
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
